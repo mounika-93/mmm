@@ -78,7 +78,7 @@
                             <skip>true</skip>
                         </configuration>
                     </execution>
-        <execution>
+            <execution>
          <id>default-deploy</id>
          <phase>deploy</phase>
          <goals>
