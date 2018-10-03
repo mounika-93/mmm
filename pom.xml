@@ -37,6 +37,7 @@
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
+          </snapshotRepository>
           </distributionManagement>
 
   <build>
