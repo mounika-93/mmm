@@ -33,11 +33,11 @@
             <name>Internal Releases</name>
             <url>http://54.152.125.193:8081/repository/build_release/</url>
         </repository>
-        <snapshotRepository>
+        <!-- <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
-          </snapshotRepository>
+          </snapshotRepository> -->
           </distributionManagement>
 
   <build>
