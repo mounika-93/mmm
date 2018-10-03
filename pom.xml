@@ -27,22 +27,16 @@
     </dependency>
      </dependencies>
   
-  <repositories>
-    <repository>
-      <id>maven-group</id>
-      <url>http://54.152.125.193:8081/repository/maven_group/</url>
-    </repository>
-  </repositories>
-  
+   
   <distributionManagement>
     <snapshotRepository>
             <id>nexus_snapshot</id>
-            <name>Internal Snapshot Releases</name>
+            <name>build_snapshot</name>
             <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
           </snapshotRepository> 
         <repository>
             <id>nexus_release</id>
-            <name>Internal Releases</name>
+            <name>build_release</name>
             <url>http://54.152.125.193:8081/repository/build_release/</url>
         </repository>
           </distributionManagement>
@@ -85,7 +79,7 @@
                             <skip>true</skip>
                         </configuration>
                     </execution> -->
-        <plugin>
+        <!--<plugin>
             <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
    <version>1.5.1</version>
@@ -103,7 +97,7 @@
       <nexusUrl>http:54.152.125.193:8081/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
-</plugin>
+</plugin> -->
       </plugins>
     </pluginManagement>
   </build>
