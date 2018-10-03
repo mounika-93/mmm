@@ -87,7 +87,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http:54.152.125.193:8081</nexusUrl>
+      <nexusUrl>http:54.152.125.193:8081/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
