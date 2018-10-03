@@ -88,7 +88,7 @@
    </executions>
    <configuration>
      <groupId>org.sonatype.plugins</groupId>
-       <artifactId><nexus-staging-maven-plugin></artifactId>
+       <artifactId>nexus-staging-maven-plugin</artifactId>
          <version><1.5.1></version>
            <generatePom><true></generatePom>
       <serverId>nexus</serverId>
