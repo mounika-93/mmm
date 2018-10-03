@@ -26,6 +26,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://54.152.125.193:8081/repository/build_release/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
+          </distributionManagement>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -79,17 +91,6 @@
    </configuration>
 </plugin>
       </plugins>
-      <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://54.152.125.193:8081/repository/build_release/</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
-          </distributionManagement>
     </pluginManagement>
   </build>
 </project>
