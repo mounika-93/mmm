@@ -78,6 +78,7 @@
                             <skip>true</skip>
                         </configuration>
                     </execution>
+            </executions>
         </plugin> 
         <plugin>
    <groupId>org.sonatype.plugins</groupId>
