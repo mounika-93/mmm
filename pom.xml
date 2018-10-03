@@ -79,8 +79,7 @@
    </configuration>
 </plugin>
       </plugins>
-    </pluginManagement>
-    <distributionManagement>
+      <distributionManagement>
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
@@ -91,6 +90,6 @@
             <name>Internal Snapshot Releases</name>
             <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
           </distributionManagement>
-
+    </pluginManagement>
   </build>
 </project>
