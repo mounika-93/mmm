@@ -31,12 +31,12 @@
         <repository>
             <id>nexus_release</id>
             <name>Internal Releases</name>
-            <url>http://54.152.125.193:8081/repository/build_release/</url>
+            <url>http://54.152.125.193:8081/nexus/content/repositories/build_release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus_snapshot</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://54.152.125.193:8081/repository/build_snapshot/</url>
+            <url>http://54.152.125.193:8081/nexus/content/repositories/build_snapshot/</url>
           </snapshotRepository> 
           </distributionManagement>
 
@@ -87,7 +87,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http:54.152.125.193:8081/nexus/</nexusUrl>
+      <nexusUrl>http:54.152.125.193:8081</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
