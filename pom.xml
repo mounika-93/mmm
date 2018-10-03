@@ -79,7 +79,7 @@
                         </configuration>
                     </execution>
             <execution>
-         <id>default-deploy</id>
+         <id>default-deploy-nexus</id>
          <phase>deploy</phase>
          <goals>
             <goal>deploy</goal>
